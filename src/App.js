@@ -1,6 +1,10 @@
 // import { useState, useEffect } from 'react';
 // import color from './assets/color.json';
-import PasswordGenerator from "./components/passwordGenerator";
+// import PasswordGenerator from "./components/passwordGenerator";
+// import Login from "./pages/login";
+// import Profile from "./pages/profile";
+// import UserContextProvider from './context/userProfileProvider';
+import ThemeSwitcher from './pages/ThemeSwitcher';
 function App() {
   // const [colors, setColorFromJson] = useState([]);
   // const [effectedColor, seteffectedColor] = useState();
@@ -23,7 +27,18 @@ function App() {
 
   return (
     <>
-      <PasswordGenerator />
+
+      {/* <h2 className="text-center">USE CONTEXT API</h2>
+      < UserContextProvider>
+        <Login />
+        <Profile />
+      </UserContextProvider> */}
+
+
+      <ThemeSwitcher />
+
+
+      {/* <PasswordGenerator /> */}
       {/* <div className="w-full h-screen duration-200
       flex flex-wrap  w-full
       justify-center items-center" style={{ backgroundColor: effectedColor }}>
